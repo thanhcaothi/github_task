@@ -42,7 +42,7 @@ i:hover{
 }
 .resume_wrapper .resume_left{
 	width: 145%;
-	background: #555555;
+	background: #696969;
 	position: relative;
 	
 }
@@ -110,8 +110,8 @@ i:hover{
 	margin-top: 4px;
 	display: inline-block;
 }
-.resume_subinfo_1{
-	color:#fff;
+.resume_subinfo1{
+	color: #8DEEEE;
 	position: relative;
 	padding-right: 20px;
 	word-break: break-all;
@@ -125,21 +125,26 @@ i:hover{
 .resume_subinfo{
 	padding-left: 6px;
 	width: 140px;
+	color:rgb(218, 130, 16);
 	padding-right: 20px;
 	word-break: break-all;
 } 
-.resume_subinfo_2{
+.resume_subinfo2{
 	width: 80px;
 	word-break: break-all;
+	color: yellow;
+
 }
-.resume_subinfo_6{
+.resume_subinfo4{
 	width: 85px;
 	word-break: break-all;
+	color: yellowgreen;
 }
 .resume_subinfo5{
 	padding-left: 8px;
 	padding-right: 20px;
 	word-break: break-all;
+	color: pink;
 }
 .facontract {
     font-size: 13px;
