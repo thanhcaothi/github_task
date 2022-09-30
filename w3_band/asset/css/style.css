@@ -1,0 +1,128 @@
+/*RESET lại code*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    /*hiển thị chữ in hoa toàn bộ trang web*/
+}
+#header{
+    height: 49.13px;
+    background-color: #000;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav{
+    display: inline-block;
+}
+#nav, .subnav{
+    list-style-type: none;
+}
+#nav li{
+    position:relative;
+}
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav > li{
+    display:inline-block;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 49.13px;
+    padding: 12px 24px;
+}
+#nav li:hover .subnav{
+    display:block;
+}
+#nav >li:hover > a, #nav .subnav li:hover{
+    color:#000;
+    background-color: #ccc;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position:absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav .subnav a{
+    color:#000;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 38px;
+}
+#header .search-button{
+    float:right;
+    padding: 0 21px;
+}
+#header .search-button:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 49.13px;
+}
+/*Kết thúc header*/
+#slider{
+    padding-top: 50%;
+    background: url('/asset/img.png/slider/chicago.jpg') top center / cover no-repeat !important;
+    position:relative;
+}
+#slider .take-content{
+    color: #fff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    position:absolute;
+    bottom: 47px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#slider .take-heading{
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+}
+#slider .take-description{
+    font-size: 15px;
+}
+#content .takecontent{
+    height:max-content
+}
+#content .content-section{
+    max-width: 800px;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    opacity: 0.6;
+    font-style: Italic;
+}
+#content .about-text{
+    text-align: justify;
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+#footer{
+
+}
