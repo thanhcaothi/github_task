@@ -1,0 +1,149 @@
+/* reset CSS*/
+*{
+    /* emmet: viet tat */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+
+/*
+1. Vị trí
+2. Kích thước (width, height
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ...) 
+*/
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+    font-weight: 800;
+}
+
+#nav .nav-arrow-down{
+    font-size: 8px;
+}
+
+
+
+#header .search-btn{
+    float: right;
+    height: 100%;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+
+#header .header-search{
+    color: #fff;
+    line-height: 46px;
+}
+
+#header .search-btn:hover{
+    background-color: palevioletred;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    display: inline-block;
+}
+
+#nav > li:hover .subnav{
+    display: block;
+}
+
+#nav > li:hover > a{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#nav .subnav li:hover{
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+}
+
+#nav .subnav li:active{
+    color: white;
+    background-color: rgb(69, 145, 127);
+    width: 100%;
+}
+
+#nav .subnav a{
+    line-height: 36px;
+    color: black;
+    padding-left: 12px;
+}
+
+#slider {
+    margin-top:46px;
+    padding-top: 50%;
+    /* background: url(/assets/img/MU1.png) center /cover no-repeat; */
+    position: relative;
+    background-color: #333;;
+}
+
+#slider .text-content{
+    width: 100%;
+    position: absolute;
+    bottom: 58px;
+    color: #FFF;
+    text-align: center;
+}
+
+#slider .text-heading{
+    
+}
+
+#slider .text-description{
+    
+}
+
+
+#content {
+
+}
+
+#footer {
+
+}
