@@ -84,6 +84,7 @@ i:hover{
 	margin-top: 50px;
 	object-fit: cover;
 } 
+
 .resume_wrapper .resume_title{
 	color: #fff;
 	text-transform: uppercase;
@@ -95,8 +96,10 @@ i:hover{
 	text-transform: capitalize;
 	letter-spacing: 1px;
 }
+
+
 .resume_wrapper .resume_left .resume_info{
-	color:#fff;
+	color: #fff;
     margin-left: 30px;
 	margin-right: 15px;
 	margin-bottom: 10px;
@@ -127,6 +130,7 @@ i:hover{
 	width: 140px;
 	padding-right: 20px;
 	word-break: break-all;
+	color: red;
 } 
 .resume_subinfo_2{
 	width: 80px;
@@ -140,6 +144,7 @@ i:hover{
 	padding-left: 8px;
 	padding-right: 20px;
 	word-break: break-all;
+	
 }
 .facontract {
     font-size: 13px;
@@ -257,6 +262,7 @@ i:hover{
 	padding-bottom: 20px;
 	font-weight:600 ;
 	letter-spacing: 4px;
+	color: green;
 }
 .namework{
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -264,7 +270,7 @@ i:hover{
 	letter-spacing: 6px;
 	font-weight:200 ;
 	padding-bottom: 50px;
-	color: #444444;
+	color: blue;
 }
 .resume_subinfo_right_1{
 	color: #004400;
