@@ -127,6 +127,7 @@ i:hover{
 	width: 140px;
 	padding-right: 20px;
 	word-break: break-all;
+	color: lightblue;
 } 
 .resume_subinfo_2{
 	width: 80px;
@@ -140,6 +141,7 @@ i:hover{
 	padding-left: 8px;
 	padding-right: 20px;
 	word-break: break-all;
+	color: lightblue;
 }
 .facontract {
     font-size: 13px;
@@ -257,6 +259,7 @@ i:hover{
 	padding-bottom: 20px;
 	font-weight:600 ;
 	letter-spacing: 4px;
+	color: lightblue;
 }
 .namework{
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -264,7 +267,7 @@ i:hover{
 	letter-spacing: 6px;
 	font-weight:200 ;
 	padding-bottom: 50px;
-	color: #444444;
+	color: lightblue;
 }
 .resume_subinfo_right_1{
 	color: #004400;
@@ -319,9 +322,6 @@ i:hover{
 	}
 	.cv-block-item-hobby{
 		display: inline-block;
-	}
-	.fa-x{
-
 	}
 }
 @media (max-width:700px){
