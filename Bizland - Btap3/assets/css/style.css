@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --text-color: #106eea;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Quick-contact */
+#quick-contact{
+    background-color: var(--text-color);
+    height: 40px;
+    align-items: center;
+    padding: 0 108px;
+    position: relative;
+}
+
+#quick-contact .q-contact-label{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+#quick-contact a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#quick-contact i{
+    padding: 12px;
+}
+
+#quick-contact .contact-logo{
+    float: right;
+    color: rgb(222, 217, 217);
+    size: 14px;
+}
+
+#quick-contact .qti:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+#quick-contact .q-contact-label,
+#quick-contact .contact-logo{
+    line-height: 40px;
+}
+/* End */
+
+/* Header */
+#header{
+    height: 86px;
+    position: relative;
+}
+
+#header .header-logo{
+    display: inline-block;
+    line-height: 86px;
+    margin-left: 26px;
+}
+
+#header .header-name{
+    color: #000;
+    display: inline;
+    font-weight: 600;
+}
+
+#header .header-point{
+    color: var(--text-color);
+    display: inline;
+    font-weight: 800;
+}
+
+#header .nav-bar{
+    float: right;
+    margin-right: 26px;
+    position: relative;
+}
+
+#header .nav-bar li{
+    display: inline;
+    line-height: 86px;
+    padding: 10px 0 10px 28px;
+}
+
+#header .nav-bar a{
+    color:#000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#header .nav-bar a:hover,{
+    color: var(--text-color);
+}
+
+#header .ti-angle-down{
+    font-size: 12px;
+}
+
+.nav-bar .sub-nav{
+    background-color: #fff;
+    position: absolute;
+    top:100%;
+    left: 0;
+}
+
+.sub-nav li{
+    display: block;
+}
+/* End */
+#banner{
+    height: 20000px;
+    background: #333;
+}
+
+#content{
+
+}
+
+#detail-contact{
+
+}
+
+#footer{
+
+}
