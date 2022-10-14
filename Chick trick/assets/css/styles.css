@@ -32,6 +32,7 @@ html{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 #nav{
@@ -90,7 +91,7 @@ html{
 }
 
 #nav .subnav{
-    display: none;
+    display: block;
     position: absolute;
     top: 100%;
     left: 0;
@@ -120,7 +121,8 @@ html{
     padding-top: 50%;
     /* background: url(/assets/img/MU1.png) center /cover no-repeat; */
     position: relative;
-    background-color: #333;;
+    background-color: #333;
+    z-index: 2;
 }
 
 #slider .text-content{
